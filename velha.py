@@ -24,7 +24,7 @@ def player_time():
 	move = raw_input('Digite um numero: ')
 	for i in board:
 		if int(move) == i:
-			board[i - 1] = 'o';
+			board[i - 1] = 'o':
 
 def machine_time():
 	move = random.randint(1, 9)
